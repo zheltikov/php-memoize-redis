@@ -1,6 +1,6 @@
 # php-memoize-redis
 
-A [memoization](https://github.com/zheltikov/php-memoize) Cache provided backed by [Redis](https://redis.io/).
+A [memoization](https://github.com/zheltikov/php-memoize) cache provider backed by [Redis](https://redis.io/).
 
 ## Installation
 
