@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "219a28e548c02ed70325cec0df9bfb63",
+    "content-hash": "e991bf28bb7167b5853d91b8e39fc2d1",
     "packages": [
         {
             "name": "zheltikov/php-exceptions",
@@ -202,7 +202,8 @@
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
-        "php": "^7.4"
+        "php": "^7.4",
+        "ext-redis": "*"
     },
     "platform-dev": [],
     "plugin-api-version": "2.1.0"
