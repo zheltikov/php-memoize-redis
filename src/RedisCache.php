@@ -27,10 +27,10 @@ class RedisCache implements Cache
         }
 
         $redis = new Redis();
-        $redis->setOption(Redis::OPT_SERIALIZER, Redis::SERIALIZER_PHP);
 
         if ($host !== null) {
             $redis->connect($host, $port);
+            $redis->setOption(Redis::OPT_SERIALIZER, Redis::SERIALIZER_PHP);
         }
 
         $this->setRedis($redis);
